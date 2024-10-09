@@ -201,7 +201,7 @@ def check_masks_overlap(new_mask, class_masks, allowed_overlap=0.05):
     return exceed_overlap
 
 
-num_of_images = 7
+num_of_images = 8
 for i in range(num_of_images):
     print(f"Generating image number {i+1}/{num_of_images}")
     number_of_models = random.randint(7, 11)
